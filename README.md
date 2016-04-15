@@ -28,9 +28,8 @@ Información:
 * [Pruebas Mocha y Chai](http://ull-esit-gradoii-dsi.github.io/localstorage-jquery-underscore-express-sass-heroku-josue-nayra-dsi15-16-1/test/)
 
 
-### Ejecución en Travis
-[![Build Status](https://travis-ci.org/JosueTC94/localstorage-jquery-underscore-express-sass-heroku-josue-nayra-dsi15-16-1.svg?branch=master)](https://travis-ci.org/JosueTC94/localstorage-jquery-underscore-express-sass-heroku-josue-nayra-dsi15-16-1)
-
+### Despliegue de la práctica en Heroku
+* [Heroku](https://practica7-josue-nayra.herokuapp.com/)
 
 ### AUTORES: 
 ### Páginas personales de gh-pages:
