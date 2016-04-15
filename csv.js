@@ -1,10 +1,7 @@
-console.log("Accedo a fichero csv.js");
-(function(exports) {
-  "use strict"; // Use ECMAScript 5 strict mode in browsers that support it
-  // See http://en.wikipedia.org/wiki/Comma-separated_values
+"use strict";
 
-  var regexp = /"((?:[^"\\]|\\.)*)"|([^,\s]+)|,\s*(?=,|$)|^\s*,/g
-  exports.calculate = function(original) {
+var regexp = /"((?:[^"\\]|\\.)*)"|([^,\s]+)|,\s*(?=,|$)|^\s*,/g
+module.exports.calculate = function(original) {
     if(original != null)
     {
       console.log("Generando tabla");
@@ -45,6 +42,5 @@ console.log("Accedo a fichero csv.js");
     {
       console.error("No se le ha pasado ningún parámetro a la función calculate...");
     }
-  };
-})(this);
+};
 

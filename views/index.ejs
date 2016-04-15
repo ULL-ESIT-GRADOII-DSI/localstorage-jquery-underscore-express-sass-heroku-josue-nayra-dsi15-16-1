@@ -1,0 +1,21 @@
+<div>
+    <h1><%- title %></h1>
+    <div>
+      <p align="center"> Enlace al <a href="https://github.com/ULL-ESIT-GRADOII-DSI/localstorage-jquery-underscore-express-sass-heroku-josue-nayra-dsi15-16-1">repo</a> de la práctica.</p>
+      <p align="center">Escriba una cadena en formato CSV, haga click sobre el boton "Tabla" y el programa mostrará una tabla con los datos de entrada.</p>
+      <br><br>
+    </div>
+    <center>
+    <form action="/csv" method="post">
+       Cadena CSV:
+       <br>
+       <textarea autofocus name="original" cols="80" rows="10" id="original"></textarea>
+       <br/>
+       <p><%- error %></p>
+       <br>
+       <button name="button" id="button" type="submit">Analizar</button>
+    </form>
+    </center>
+
+    
+</div>

@@ -1,0 +1,11 @@
+<h1>Resultado:</h1>
+<table id="result" class="center">
+    <% items.forEach(function(name, index) { %>
+        <tr class="<%= name.rowClass %>">
+            <% name.value.forEach(function(cell, index){ %>
+                <td><%= cell %></td>
+            <% }); %>
+        </tr>
+    <% }); %>
+</table>
+<a href="/">Atras</a>

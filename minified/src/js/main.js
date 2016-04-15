@@ -1,1 +1,0 @@
-console.log("Accedo a fichero main.js"),main=function(){var a=document.getElementById("original").value;window.localStorage&&(localStorage.original=a);var l=calculate(a),o=fillTable.innerHTML;finaltable.innerHTML=_.template(o,{items:l})},$(document).ready(function(){window.localStorage&&localStorage.original&&(original.value=localStorage.original),$("button").click(main)});

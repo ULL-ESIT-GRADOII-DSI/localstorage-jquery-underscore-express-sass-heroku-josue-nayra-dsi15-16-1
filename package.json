@@ -1,59 +1,25 @@
 {
-  "name": "Conversor",
-  "version": "0.0.1",
-  "description": "Conversor javascript de tipos. Karma y Travis",
-  "main": "conversor.js",
-  "scripts": {
-    "test": "./node_modules/karma/bin/karma start --single-run --browsers PhantomJS"
-  },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/ULL-ESIT-GRADOII-DSI/karma-y-travis-josue-nayra-dsi15-16-1"
-  },
-  "keywords": [
-    "conversor"
-  ],
-  "author": "Maria Nayra Rodriguez Perez y Josue Toledo Castro",
-  "license": "ISC",
-  "bugs": {
-    "url": " "
-  },
-  "homepage": "https://github.com/alu0100406122/karma-y-travis-josue-nayra-dsi15-16-1",
-  "devDependencies": {
-    "blanket": "^1.2.3",
-    "chai": "^3.5.0",
-    "del": "^2.2.0",
-    "dev": "^0.1.3",
-    "gulp": "^3.9.1",
-    "gulp-clean-css": "^2.0.4",
-    "gulp-concat": "^2.6.0",
-    "gulp-gh-pages": "^0.5.4",
-    "gulp-karma": "0.0.5",
-    "gulp-minify-html": "^1.0.6",
-    "gulp-uglify": "^1.5.3",
-    "gulp-util": "^3.0.7",
-    "inotify": "^1.4.0",
-    "karma": "^0.13.22",
-    "karma-chai": "^0.1.0",
-    "karma-chai-plugins": "^0.7.0",
-    "karma-cli": "^0.1.2",
-    "karma-mocha": "^0.2.2",
-    "karma-phantomjs-launcher": "^1.0.0",
-    "karma-requirejs": "^0.2.6",
-    "karma-sinon": "^1.0.4",
-    "karma-sinon-chai": "^1.2.0",
-    "lolex": "^1.4.0",
-    "mocha": "^2.4.5",
-    "mocha-sinon": "^1.1.5",
-    "node-gyp": "^3.3.1",
-    "phantomjs-prebuilt": "^2.1.7",
-    "rebuild": "^0.1.2",
-    "requirejs": "^2.2.0",
-    "sass": "^0.5.0",
-    "sinon": "^1.17.3",
-    "sinon-chai": "^2.8.0"
-  },
+  "name": "localstorage-jquery-underscore-express-sass-heroku-josue-nayra-dsi15-16-1",
+  "version": "0.0.0",
+  "main": "main.js",
   "dependencies": {
-    "express": "^4.13.4"
-  }
+    "express": "*",
+    "ejs": "*",
+    "body-parser": "~1.12.2",
+    "express-ejs-layouts": "~2.0.0"
+  },
+  "devDependencies": {
+    "underscore": "^1.8.3",
+    "underscore-express": "^1.0.1"
+  },
+  "scripts": {
+    "test": "node app.js",
+     "start": "node app.js",
+    "view": "open http://localhost:8080/"
+  },
+  "engines": {
+    "node": "0.12.7"
+  },
+  "author": "Josué Toledo Castro - María Nayra Rodríguez Pérez",
+  "license": "ISC"
 }
