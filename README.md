@@ -1,6 +1,6 @@
 ##Nota:
 ### Rama master: Despliegue Heroku y express.
-### Rama gh-pages: Pruebas Mocha y Chai. Express (Myapp)
+### Rama gh-pages: Pruebas Mocha y Chai + Express (Myapp) + SASS
 
 -------------------------------------------------------------------------------------------------------------
 
